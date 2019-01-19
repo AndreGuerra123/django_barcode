@@ -1,0 +1,28 @@
+
+<table style="undefined;table-layout: fixed; width: 498px;">
+<colgroup>
+<col style="width: 150px">
+<col style="width: 150px">
+<col style="width: 150px">
+<col style="width: 150px">
+<col style="width: 150px">
+<col style="width: 150px">
+</colgroup>
+  <tr>
+    <th>ID<br></th>
+    <th>CODE</th>
+    <th>BARS</th>
+    <th>BARCODE</th>
+  </tr>
+  <tr>
+    <td>{{object.id}}</td>
+    <td>{{object.bc}}</td>
+    <td>{{object.bc.bars}}</td>
+    <td>{{object.bc.barcode}}</td>
+  </tr>
+</table>
+
+
+</table>
+<a href="{% url 'update' object.id %}">Update</a>
+<a href="{% url 'delete' object.id %}">Delete</a>

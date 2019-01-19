@@ -1,0 +1,6 @@
+Barcode Update
+<form action="{% url 'update' object.id %}" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">Update</button>
+</form>

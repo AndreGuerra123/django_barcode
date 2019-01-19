@@ -1,0 +1,5 @@
+.tox
+dist
+__pycache__
+django_barcode.egg-info
+poetry.lock

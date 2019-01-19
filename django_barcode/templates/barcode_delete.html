@@ -1,0 +1,10 @@
+Barcode Delete
+
+Barcode Create
+<form action="{% url 'delete' object.id %}" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <p>Are you sure you want to delete {{object}}:{{object.bc}} ?</p>
+    <button type="submit">Delete</button>
+</form>
+

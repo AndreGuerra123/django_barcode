@@ -1,0 +1,8 @@
+Barcode List
+<table>
+{% for object in object_list %}
+  <tr>
+    <td><a href="{% url 'detail' object.id %}">{{object.bc}}</a></td>
+  </tr>
+{% endfor %}
+</table>
