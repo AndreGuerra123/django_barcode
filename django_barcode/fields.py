@@ -30,7 +30,7 @@ class BarcodeFieldDescriptor(object):
 
 
 class BarcodeField(models.CharField):
-    '''Barcode model field based on a EAN13 standard and BigAutoField''' 
+    '''Barcode model field based on a EAN13 standard''' 
     description = _('EAN13 Barcode.')
 
     def generate_default(self):
