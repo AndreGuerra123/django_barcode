@@ -4,7 +4,7 @@ matrix:
     - python: 3.6
       env: TOXENV=py36
 before_install:
-  - pip install poetry tox
+  - pip install poetry
 install:
   - poetry install
 script:
