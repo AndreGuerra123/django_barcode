@@ -6,7 +6,7 @@ matrix:
 before_install:
   - pip install poetry
 install:
-  - poetry install
+  - poetry install -v
 script:
   - tox
 after_success:
