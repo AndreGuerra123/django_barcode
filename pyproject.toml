@@ -12,7 +12,7 @@ python-barcode = "^0.9.0"
 [tool.poetry.dev-dependencies]
 coverage = "^4.5"
 tox = "^3.7"
-coveralls = "^1.5"
+codecov = "^2.0"
 
 [build-system]
 requires = ["poetry>=0.12"]

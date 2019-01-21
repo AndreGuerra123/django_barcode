@@ -16,4 +16,4 @@ script:
 after_success:
   - coverage combine
   - coverage report
-  - coveralls
+  - codecov
