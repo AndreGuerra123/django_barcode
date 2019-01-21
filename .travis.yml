@@ -3,11 +3,14 @@ matrix:
   include:
     - python: 3.6
       env: TOXENV=py36
-before_install:
-  - pip install poetry
+
 install:
-  - poetry install -v
+  - pip install poetry
+
 script:
   - tox
+
 after_success:
+  - coverage combine
+  - coverage report
   - coveralls
