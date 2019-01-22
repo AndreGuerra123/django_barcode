@@ -13,7 +13,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Django 
 
 ```bash
 
-pip install django_barcode
+pip install django-barcode
 
 ```
 
