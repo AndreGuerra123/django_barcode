@@ -1,6 +1,6 @@
-[![codecov](https://codecov.io/gh/TechnionYP5777/project-name/branch/master/graph/badge.svg)](https://codecov.io/gh/TechnionYP5777/project-name)
 
-[![Build Status](https://travis-ci.org/TechnionYP5777/project-name.png)](https://travis-ci.org/TechnionYP5777/project-name)
+[![Build Status](https://travis-ci.org/AndreGuerra123/django_barcode.png)](https://travis-ci.org/AndreGuerra123/django_barcode)
+[![codecov](https://codecov.io/gh/AndreGuerra123/django_barcode/branch/master/graph/badge.svg)](https://codecov.io/gh/AndreGuerra123/django_barcode)
 
 # Django Barcode
 
