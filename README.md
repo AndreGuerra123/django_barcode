@@ -13,7 +13,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Django 
 
 ```bash
 
-pip install django_barcode
+pip install django-barcode
 
 ```
 
@@ -31,7 +31,7 @@ class Product(models.Model):
 
 ```
 
-Alternatively, it can be used as the foreign key:
+Alternatively, it can be used as the primary key:
 
 ```python
 

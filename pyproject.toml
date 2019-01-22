@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django_barcode"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple barcode field for Django models."
 authors = ["Andre Guerra <andre.catarino.guerra@protonmail.com>"]
 
