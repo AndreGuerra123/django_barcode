@@ -63,10 +63,20 @@ class Product(models.Model):
 
 ```
 
+In order to display the bars or the barcode in the templates:
+
+```html
+
+    {{ object.bc.bars }}
+    {{ object.bc.barcode }}
+
+```
+
+
 ## TODO & Limitations
 
 - TODO:
-    * Better documentation.
+    * Make the documentation.
     * Other barcode standards.
 
 - Limitations:
