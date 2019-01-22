@@ -1,3 +1,7 @@
+[![codecov](https://codecov.io/gh/TechnionYP5777/project-name/branch/master/graph/badge.svg)](https://codecov.io/gh/TechnionYP5777/project-name)
+
+[![Build Status](https://travis-ci.org/TechnionYP5777/project-name.png)](https://travis-ci.org/TechnionYP5777/project-name)
+
 # Django Barcode
 
 Django Barcode is a Django (Python) library with a [EAN-13](https://en.wikipedia.org/wiki/International_Article_Number) standard barcode field. 
