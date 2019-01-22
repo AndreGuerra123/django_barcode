@@ -39,7 +39,7 @@ from django.db import models
 from django_barcode.fields import BarcodeField
 
 class Product(models.Model):
-    id = BarcodeField(unique=True)
+    id = BarcodeField(primary_key=True)
 
 ```
 
@@ -58,7 +58,7 @@ BARCODE_BRAND = '1234'
 ```python
 
 class Product(models.Model):
-    id = BarcodeField(unique=, country='123',brand='1234')
+    bc = BarcodeField(country='123',brand='1234')
 
 
 ```
