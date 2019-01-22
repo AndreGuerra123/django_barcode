@@ -4,7 +4,7 @@
 
 # Django Barcode
 
-Django Barcode is a Django (Python) library with a [EAN-13](https://en.wikipedia.org/wiki/International_Article_Number) standard barcode field. 
+Django Barcode is a Django (Python) library with a [EAN-13](https://en.wikipedia.org/wiki/International_Article_Number) standard barcode field from [python-barcode](https://github.com/WhyNotHugo/python-barcode). 
 It provides the means of supplying to Django models the capability of storing a standarized barcode.
 
 ## Installation
