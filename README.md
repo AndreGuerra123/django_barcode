@@ -63,6 +63,13 @@ class Product(models.Model):
 
 ```
 
+## TODO & Limitations
+
+- TODO:
+    * Better documentation.
+    * Other barcode standards.
+
+- Limitations:
 The Barcode Field as a current limitation set by the EAN standard of  100 000 unique elements.
 
 ## Contributing
